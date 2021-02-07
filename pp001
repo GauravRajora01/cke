@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n,temp;
+    scanf("%d",&n);
+    temp=n;
+    if(temp%2)
+        printf("%d is odd",n);
+    else
+        printf("%d is even",n);
+}
